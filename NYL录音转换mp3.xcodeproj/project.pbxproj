@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D0574C71DFE721000115AE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0574C61DFE721000115AE7 /* main.m */; };
+		9D0574CA1DFE721000115AE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0574C91DFE721000115AE7 /* AppDelegate.m */; };
+		9D0574CD1DFE721000115AE7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0574CC1DFE721000115AE7 /* ViewController.m */; };
+		9D0574D01DFE721000115AE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D0574CE1DFE721000115AE7 /* Main.storyboard */; };
+		9D0574D21DFE721000115AE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D0574D11DFE721000115AE7 /* Assets.xcassets */; };
+		9D0574D51DFE721000115AE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D0574D31DFE721000115AE7 /* LaunchScreen.storyboard */; };
+		9D0574E01DFE721000115AE7 /* NYL____mp3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0574DF1DFE721000115AE7 /* NYL____mp3Tests.m */; };
+		9D0574EB1DFE721000115AE7 /* NYL____mp3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0574EA1DFE721000115AE7 /* NYL____mp3UITests.m */; };
+		9D0574FB1DFE728500115AE7 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0574FA1DFE728500115AE7 /* libmp3lame.a */; };
+		9D0574FF1DFE732A00115AE7 /* NYLRecordTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0574FE1DFE732A00115AE7 /* NYLRecordTool.m */; };
+		9D0575021DFE734A00115AE7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0575011DFE734A00115AE7 /* AVFoundation.framework */; };
+		9D0575051DFE73EE00115AE7 /* VoicePlayerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0575041DFE73EE00115AE7 /* VoicePlayerUtil.m */; };
+		9D05750C1DFE76BE00115AE7 /* NYLLeavewordRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D05750B1DFE76BE00115AE7 /* NYLLeavewordRecordView.m */; };
+		9D0575111DFE772B00115AE7 /* CommonMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0575101DFE772B00115AE7 /* CommonMethod.m */; };
+		9D05751F1DFE782D00115AE7 /* UIView+WLFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D05751B1DFE782D00115AE7 /* UIView+WLFrame.m */; };
+		9D0575221DFE795200115AE7 /* WYTDevicesTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0575211DFE795200115AE7 /* WYTDevicesTool.m */; };
+		9D0575301DFE843F00115AE7 /* 音量1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D0575241DFE843F00115AE7 /* 音量1.png */; };
+		9D0575311DFE843F00115AE7 /* 音量1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D0575251DFE843F00115AE7 /* 音量1@2x.png */; };
+		9D0575321DFE843F00115AE7 /* 音量1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D0575261DFE843F00115AE7 /* 音量1@3x.png */; };
+		9D0575331DFE843F00115AE7 /* 音量2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D0575271DFE843F00115AE7 /* 音量2.png */; };
+		9D0575341DFE843F00115AE7 /* 音量2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D0575281DFE843F00115AE7 /* 音量2@2x.png */; };
+		9D0575351DFE843F00115AE7 /* 音量2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D0575291DFE843F00115AE7 /* 音量2@3x.png */; };
+		9D0575361DFE843F00115AE7 /* 音量3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D05752A1DFE843F00115AE7 /* 音量3.png */; };
+		9D0575371DFE843F00115AE7 /* 音量3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D05752B1DFE843F00115AE7 /* 音量3@2x.png */; };
+		9D0575381DFE843F00115AE7 /* 音量3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D05752C1DFE843F00115AE7 /* 音量3@3x.png */; };
+		9D0575391DFE843F00115AE7 /* 音量4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D05752D1DFE843F00115AE7 /* 音量4.png */; };
+		9D05753A1DFE843F00115AE7 /* 音量4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D05752E1DFE843F00115AE7 /* 音量4@2x.png */; };
+		9D05753B1DFE843F00115AE7 /* 音量4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D05752F1DFE843F00115AE7 /* 音量4@3x.png */; };
+		9D05753F1DFE84AD00115AE7 /* YJH播放.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D05753C1DFE84AD00115AE7 /* YJH播放.png */; };
+		9D0575401DFE84AD00115AE7 /* YJH播放@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D05753D1DFE84AD00115AE7 /* YJH播放@2x.png */; };
+		9D0575411DFE84AD00115AE7 /* YJH播放@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D05753E1DFE84AD00115AE7 /* YJH播放@3x.png */; };
+		9D0575451DFE84BF00115AE7 /* playBtnImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D0575421DFE84BF00115AE7 /* playBtnImage.png */; };
+		9D0575461DFE84BF00115AE7 /* playBtnImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D0575431DFE84BF00115AE7 /* playBtnImage@2x.png */; };
+		9D0575471DFE84BF00115AE7 /* playBtnImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D0575441DFE84BF00115AE7 /* playBtnImage@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D0574DC1DFE721000115AE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D0574BA1DFE721000115AE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D0574C11DFE721000115AE7;
+			remoteInfo = "NYL录音转换mp3";
+		};
+		9D0574E71DFE721000115AE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D0574BA1DFE721000115AE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D0574C11DFE721000115AE7;
+			remoteInfo = "NYL录音转换mp3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D0574C21DFE721000115AE7 /* NYL录音转换mp3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NYL录音转换mp3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D0574C61DFE721000115AE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D0574C81DFE721000115AE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D0574C91DFE721000115AE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D0574CB1DFE721000115AE7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D0574CC1DFE721000115AE7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9D0574CF1DFE721000115AE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D0574D11DFE721000115AE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D0574D41DFE721000115AE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D0574D61DFE721000115AE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D0574DB1DFE721000115AE7 /* NYL录音转换mp3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NYL录音转换mp3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D0574DF1DFE721000115AE7 /* NYL____mp3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NYL____mp3Tests.m"; sourceTree = "<group>"; };
+		9D0574E11DFE721000115AE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D0574E61DFE721000115AE7 /* NYL录音转换mp3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NYL录音转换mp3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D0574EA1DFE721000115AE7 /* NYL____mp3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NYL____mp3UITests.m"; sourceTree = "<group>"; };
+		9D0574EC1DFE721000115AE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D0574F91DFE728500115AE7 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		9D0574FA1DFE728500115AE7 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		9D0574FD1DFE732A00115AE7 /* NYLRecordTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYLRecordTool.h; sourceTree = "<group>"; };
+		9D0574FE1DFE732A00115AE7 /* NYLRecordTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYLRecordTool.m; sourceTree = "<group>"; };
+		9D0575011DFE734A00115AE7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9D0575031DFE73EE00115AE7 /* VoicePlayerUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoicePlayerUtil.h; sourceTree = "<group>"; };
+		9D0575041DFE73EE00115AE7 /* VoicePlayerUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoicePlayerUtil.m; sourceTree = "<group>"; };
+		9D05750A1DFE76BE00115AE7 /* NYLLeavewordRecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYLLeavewordRecordView.h; sourceTree = "<group>"; };
+		9D05750B1DFE76BE00115AE7 /* NYLLeavewordRecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYLLeavewordRecordView.m; sourceTree = "<group>"; };
+		9D05750F1DFE772B00115AE7 /* CommonMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMethod.h; sourceTree = "<group>"; };
+		9D0575101DFE772B00115AE7 /* CommonMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMethod.m; sourceTree = "<group>"; };
+		9D05751A1DFE782D00115AE7 /* UIView+WLFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WLFrame.h"; sourceTree = "<group>"; };
+		9D05751B1DFE782D00115AE7 /* UIView+WLFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WLFrame.m"; sourceTree = "<group>"; };
+		9D0575201DFE795200115AE7 /* WYTDevicesTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTDevicesTool.h; sourceTree = "<group>"; };
+		9D0575211DFE795200115AE7 /* WYTDevicesTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTDevicesTool.m; sourceTree = "<group>"; };
+		9D0575241DFE843F00115AE7 /* 音量1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "音量1.png"; sourceTree = "<group>"; };
+		9D0575251DFE843F00115AE7 /* 音量1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "音量1@2x.png"; sourceTree = "<group>"; };
+		9D0575261DFE843F00115AE7 /* 音量1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "音量1@3x.png"; sourceTree = "<group>"; };
+		9D0575271DFE843F00115AE7 /* 音量2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "音量2.png"; sourceTree = "<group>"; };
+		9D0575281DFE843F00115AE7 /* 音量2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "音量2@2x.png"; sourceTree = "<group>"; };
+		9D0575291DFE843F00115AE7 /* 音量2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "音量2@3x.png"; sourceTree = "<group>"; };
+		9D05752A1DFE843F00115AE7 /* 音量3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "音量3.png"; sourceTree = "<group>"; };
+		9D05752B1DFE843F00115AE7 /* 音量3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "音量3@2x.png"; sourceTree = "<group>"; };
+		9D05752C1DFE843F00115AE7 /* 音量3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "音量3@3x.png"; sourceTree = "<group>"; };
+		9D05752D1DFE843F00115AE7 /* 音量4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "音量4.png"; sourceTree = "<group>"; };
+		9D05752E1DFE843F00115AE7 /* 音量4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "音量4@2x.png"; sourceTree = "<group>"; };
+		9D05752F1DFE843F00115AE7 /* 音量4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "音量4@3x.png"; sourceTree = "<group>"; };
+		9D05753C1DFE84AD00115AE7 /* YJH播放.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "YJH播放.png"; sourceTree = "<group>"; };
+		9D05753D1DFE84AD00115AE7 /* YJH播放@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "YJH播放@2x.png"; sourceTree = "<group>"; };
+		9D05753E1DFE84AD00115AE7 /* YJH播放@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "YJH播放@3x.png"; sourceTree = "<group>"; };
+		9D0575421DFE84BF00115AE7 /* playBtnImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playBtnImage.png; sourceTree = "<group>"; };
+		9D0575431DFE84BF00115AE7 /* playBtnImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playBtnImage@2x.png"; sourceTree = "<group>"; };
+		9D0575441DFE84BF00115AE7 /* playBtnImage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playBtnImage@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D0574BF1DFE721000115AE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D0575021DFE734A00115AE7 /* AVFoundation.framework in Frameworks */,
+				9D0574FB1DFE728500115AE7 /* libmp3lame.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D0574D81DFE721000115AE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D0574E31DFE721000115AE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D0574B91DFE721000115AE7 = {
+			isa = PBXGroup;
+			children = (
+				9D0574F81DFE728500115AE7 /* lame */,
+				9D0574C41DFE721000115AE7 /* NYL录音转换mp3 */,
+				9D0574DE1DFE721000115AE7 /* NYL录音转换mp3Tests */,
+				9D0574E91DFE721000115AE7 /* NYL录音转换mp3UITests */,
+				9D0574C31DFE721000115AE7 /* Products */,
+				9D0575001DFE734A00115AE7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9D0574C31DFE721000115AE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D0574C21DFE721000115AE7 /* NYL录音转换mp3.app */,
+				9D0574DB1DFE721000115AE7 /* NYL录音转换mp3Tests.xctest */,
+				9D0574E61DFE721000115AE7 /* NYL录音转换mp3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D0574C41DFE721000115AE7 /* NYL录音转换mp3 */ = {
+			isa = PBXGroup;
+			children = (
+				9D0575231DFE843F00115AE7 /* Img */,
+				9D0575121DFE782300115AE7 /* Vendor */,
+				9D05750E1DFE771900115AE7 /* General */,
+				9D0575061DFE767E00115AE7 /* View */,
+				9D0574FC1DFE732000115AE7 /* Util */,
+				9D0574C81DFE721000115AE7 /* AppDelegate.h */,
+				9D0574C91DFE721000115AE7 /* AppDelegate.m */,
+				9D0574CB1DFE721000115AE7 /* ViewController.h */,
+				9D0574CC1DFE721000115AE7 /* ViewController.m */,
+				9D0574CE1DFE721000115AE7 /* Main.storyboard */,
+				9D0574D11DFE721000115AE7 /* Assets.xcassets */,
+				9D0574D31DFE721000115AE7 /* LaunchScreen.storyboard */,
+				9D0574D61DFE721000115AE7 /* Info.plist */,
+				9D0574C51DFE721000115AE7 /* Supporting Files */,
+			);
+			path = "NYL录音转换mp3";
+			sourceTree = "<group>";
+		};
+		9D0574C51DFE721000115AE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D0574C61DFE721000115AE7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D0574DE1DFE721000115AE7 /* NYL录音转换mp3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9D0574DF1DFE721000115AE7 /* NYL____mp3Tests.m */,
+				9D0574E11DFE721000115AE7 /* Info.plist */,
+			);
+			path = "NYL录音转换mp3Tests";
+			sourceTree = "<group>";
+		};
+		9D0574E91DFE721000115AE7 /* NYL录音转换mp3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D0574EA1DFE721000115AE7 /* NYL____mp3UITests.m */,
+				9D0574EC1DFE721000115AE7 /* Info.plist */,
+			);
+			path = "NYL录音转换mp3UITests";
+			sourceTree = "<group>";
+		};
+		9D0574F81DFE728500115AE7 /* lame */ = {
+			isa = PBXGroup;
+			children = (
+				9D0574F91DFE728500115AE7 /* lame.h */,
+				9D0574FA1DFE728500115AE7 /* libmp3lame.a */,
+			);
+			path = lame;
+			sourceTree = "<group>";
+		};
+		9D0574FC1DFE732000115AE7 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				9D0574FD1DFE732A00115AE7 /* NYLRecordTool.h */,
+				9D0574FE1DFE732A00115AE7 /* NYLRecordTool.m */,
+				9D0575031DFE73EE00115AE7 /* VoicePlayerUtil.h */,
+				9D0575041DFE73EE00115AE7 /* VoicePlayerUtil.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		9D0575001DFE734A00115AE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D0575011DFE734A00115AE7 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D0575061DFE767E00115AE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9D05750A1DFE76BE00115AE7 /* NYLLeavewordRecordView.h */,
+				9D05750B1DFE76BE00115AE7 /* NYLLeavewordRecordView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9D05750E1DFE771900115AE7 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				9D05750F1DFE772B00115AE7 /* CommonMethod.h */,
+				9D0575101DFE772B00115AE7 /* CommonMethod.m */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		9D0575121DFE782300115AE7 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				9D0575201DFE795200115AE7 /* WYTDevicesTool.h */,
+				9D0575211DFE795200115AE7 /* WYTDevicesTool.m */,
+				9D0575131DFE782D00115AE7 /* UIView+WLFrame */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		9D0575131DFE782D00115AE7 /* UIView+WLFrame */ = {
+			isa = PBXGroup;
+			children = (
+				9D05751A1DFE782D00115AE7 /* UIView+WLFrame.h */,
+				9D05751B1DFE782D00115AE7 /* UIView+WLFrame.m */,
+			);
+			path = "UIView+WLFrame";
+			sourceTree = "<group>";
+		};
+		9D0575231DFE843F00115AE7 /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				9D0575421DFE84BF00115AE7 /* playBtnImage.png */,
+				9D0575431DFE84BF00115AE7 /* playBtnImage@2x.png */,
+				9D0575441DFE84BF00115AE7 /* playBtnImage@3x.png */,
+				9D05753C1DFE84AD00115AE7 /* YJH播放.png */,
+				9D05753D1DFE84AD00115AE7 /* YJH播放@2x.png */,
+				9D05753E1DFE84AD00115AE7 /* YJH播放@3x.png */,
+				9D0575241DFE843F00115AE7 /* 音量1.png */,
+				9D0575251DFE843F00115AE7 /* 音量1@2x.png */,
+				9D0575261DFE843F00115AE7 /* 音量1@3x.png */,
+				9D0575271DFE843F00115AE7 /* 音量2.png */,
+				9D0575281DFE843F00115AE7 /* 音量2@2x.png */,
+				9D0575291DFE843F00115AE7 /* 音量2@3x.png */,
+				9D05752A1DFE843F00115AE7 /* 音量3.png */,
+				9D05752B1DFE843F00115AE7 /* 音量3@2x.png */,
+				9D05752C1DFE843F00115AE7 /* 音量3@3x.png */,
+				9D05752D1DFE843F00115AE7 /* 音量4.png */,
+				9D05752E1DFE843F00115AE7 /* 音量4@2x.png */,
+				9D05752F1DFE843F00115AE7 /* 音量4@3x.png */,
+			);
+			path = Img;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D0574C11DFE721000115AE7 /* NYL录音转换mp3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D0574EF1DFE721000115AE7 /* Build configuration list for PBXNativeTarget "NYL录音转换mp3" */;
+			buildPhases = (
+				9D0574BE1DFE721000115AE7 /* Sources */,
+				9D0574BF1DFE721000115AE7 /* Frameworks */,
+				9D0574C01DFE721000115AE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NYL录音转换mp3";
+			productName = "NYL录音转换mp3";
+			productReference = 9D0574C21DFE721000115AE7 /* NYL录音转换mp3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D0574DA1DFE721000115AE7 /* NYL录音转换mp3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D0574F21DFE721000115AE7 /* Build configuration list for PBXNativeTarget "NYL录音转换mp3Tests" */;
+			buildPhases = (
+				9D0574D71DFE721000115AE7 /* Sources */,
+				9D0574D81DFE721000115AE7 /* Frameworks */,
+				9D0574D91DFE721000115AE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D0574DD1DFE721000115AE7 /* PBXTargetDependency */,
+			);
+			name = "NYL录音转换mp3Tests";
+			productName = "NYL录音转换mp3Tests";
+			productReference = 9D0574DB1DFE721000115AE7 /* NYL录音转换mp3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D0574E51DFE721000115AE7 /* NYL录音转换mp3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D0574F51DFE721000115AE7 /* Build configuration list for PBXNativeTarget "NYL录音转换mp3UITests" */;
+			buildPhases = (
+				9D0574E21DFE721000115AE7 /* Sources */,
+				9D0574E31DFE721000115AE7 /* Frameworks */,
+				9D0574E41DFE721000115AE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D0574E81DFE721000115AE7 /* PBXTargetDependency */,
+			);
+			name = "NYL录音转换mp3UITests";
+			productName = "NYL录音转换mp3UITests";
+			productReference = 9D0574E61DFE721000115AE7 /* NYL录音转换mp3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D0574BA1DFE721000115AE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Jiuzhekan;
+				TargetAttributes = {
+					9D0574C11DFE721000115AE7 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7UJWTELDJ6;
+						ProvisioningStyle = Automatic;
+					};
+					9D0574DA1DFE721000115AE7 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7UJWTELDJ6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9D0574C11DFE721000115AE7;
+					};
+					9D0574E51DFE721000115AE7 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7UJWTELDJ6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9D0574C11DFE721000115AE7;
+					};
+				};
+			};
+			buildConfigurationList = 9D0574BD1DFE721000115AE7 /* Build configuration list for PBXProject "NYL录音转换mp3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D0574B91DFE721000115AE7;
+			productRefGroup = 9D0574C31DFE721000115AE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D0574C11DFE721000115AE7 /* NYL录音转换mp3 */,
+				9D0574DA1DFE721000115AE7 /* NYL录音转换mp3Tests */,
+				9D0574E51DFE721000115AE7 /* NYL录音转换mp3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D0574C01DFE721000115AE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D0574D51DFE721000115AE7 /* LaunchScreen.storyboard in Resources */,
+				9D0575381DFE843F00115AE7 /* 音量3@3x.png in Resources */,
+				9D0575451DFE84BF00115AE7 /* playBtnImage.png in Resources */,
+				9D05753F1DFE84AD00115AE7 /* YJH播放.png in Resources */,
+				9D0575331DFE843F00115AE7 /* 音量2.png in Resources */,
+				9D0575461DFE84BF00115AE7 /* playBtnImage@2x.png in Resources */,
+				9D0575321DFE843F00115AE7 /* 音量1@3x.png in Resources */,
+				9D05753B1DFE843F00115AE7 /* 音量4@3x.png in Resources */,
+				9D0575341DFE843F00115AE7 /* 音量2@2x.png in Resources */,
+				9D0575371DFE843F00115AE7 /* 音量3@2x.png in Resources */,
+				9D0575301DFE843F00115AE7 /* 音量1.png in Resources */,
+				9D0575401DFE84AD00115AE7 /* YJH播放@2x.png in Resources */,
+				9D0574D21DFE721000115AE7 /* Assets.xcassets in Resources */,
+				9D0574D01DFE721000115AE7 /* Main.storyboard in Resources */,
+				9D0575351DFE843F00115AE7 /* 音量2@3x.png in Resources */,
+				9D0575311DFE843F00115AE7 /* 音量1@2x.png in Resources */,
+				9D0575471DFE84BF00115AE7 /* playBtnImage@3x.png in Resources */,
+				9D0575411DFE84AD00115AE7 /* YJH播放@3x.png in Resources */,
+				9D05753A1DFE843F00115AE7 /* 音量4@2x.png in Resources */,
+				9D0575391DFE843F00115AE7 /* 音量4.png in Resources */,
+				9D0575361DFE843F00115AE7 /* 音量3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D0574D91DFE721000115AE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D0574E41DFE721000115AE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D0574BE1DFE721000115AE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D0574CD1DFE721000115AE7 /* ViewController.m in Sources */,
+				9D05751F1DFE782D00115AE7 /* UIView+WLFrame.m in Sources */,
+				9D0574CA1DFE721000115AE7 /* AppDelegate.m in Sources */,
+				9D0575221DFE795200115AE7 /* WYTDevicesTool.m in Sources */,
+				9D0575111DFE772B00115AE7 /* CommonMethod.m in Sources */,
+				9D0574FF1DFE732A00115AE7 /* NYLRecordTool.m in Sources */,
+				9D0574C71DFE721000115AE7 /* main.m in Sources */,
+				9D0575051DFE73EE00115AE7 /* VoicePlayerUtil.m in Sources */,
+				9D05750C1DFE76BE00115AE7 /* NYLLeavewordRecordView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D0574D71DFE721000115AE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D0574E01DFE721000115AE7 /* NYL____mp3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D0574E21DFE721000115AE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D0574EB1DFE721000115AE7 /* NYL____mp3UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D0574DD1DFE721000115AE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D0574C11DFE721000115AE7 /* NYL录音转换mp3 */;
+			targetProxy = 9D0574DC1DFE721000115AE7 /* PBXContainerItemProxy */;
+		};
+		9D0574E81DFE721000115AE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D0574C11DFE721000115AE7 /* NYL录音转换mp3 */;
+			targetProxy = 9D0574E71DFE721000115AE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D0574CE1DFE721000115AE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D0574CF1DFE721000115AE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D0574D31DFE721000115AE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D0574D41DFE721000115AE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D0574ED1DFE721000115AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9D0574EE1DFE721000115AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D0574F01DFE721000115AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7UJWTELDJ6;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "NYL录音转换mp3/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lame",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiuzhekan.NYL----mp3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9D0574F11DFE721000115AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7UJWTELDJ6;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "NYL录音转换mp3/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lame",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiuzhekan.NYL----mp3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9D0574F31DFE721000115AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7UJWTELDJ6;
+				INFOPLIST_FILE = "NYL录音转换mp3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiuzhekan.NYL----mp3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYL录音转换mp3.app/NYL录音转换mp3";
+			};
+			name = Debug;
+		};
+		9D0574F41DFE721000115AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7UJWTELDJ6;
+				INFOPLIST_FILE = "NYL录音转换mp3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiuzhekan.NYL----mp3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYL录音转换mp3.app/NYL录音转换mp3";
+			};
+			name = Release;
+		};
+		9D0574F61DFE721000115AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7UJWTELDJ6;
+				INFOPLIST_FILE = "NYL录音转换mp3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiuzhekan.NYL----mp3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NYL录音转换mp3";
+			};
+			name = Debug;
+		};
+		9D0574F71DFE721000115AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7UJWTELDJ6;
+				INFOPLIST_FILE = "NYL录音转换mp3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiuzhekan.NYL----mp3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NYL录音转换mp3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D0574BD1DFE721000115AE7 /* Build configuration list for PBXProject "NYL录音转换mp3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D0574ED1DFE721000115AE7 /* Debug */,
+				9D0574EE1DFE721000115AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D0574EF1DFE721000115AE7 /* Build configuration list for PBXNativeTarget "NYL录音转换mp3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D0574F01DFE721000115AE7 /* Debug */,
+				9D0574F11DFE721000115AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D0574F21DFE721000115AE7 /* Build configuration list for PBXNativeTarget "NYL录音转换mp3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D0574F31DFE721000115AE7 /* Debug */,
+				9D0574F41DFE721000115AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D0574F51DFE721000115AE7 /* Build configuration list for PBXNativeTarget "NYL录音转换mp3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D0574F61DFE721000115AE7 /* Debug */,
+				9D0574F71DFE721000115AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D0574BA1DFE721000115AE7 /* Project object */;
+}
