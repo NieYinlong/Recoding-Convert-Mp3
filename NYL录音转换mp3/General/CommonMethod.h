@@ -3,7 +3,7 @@
 //  LaiYiShou
 //
 //  Created by necsthz on 15-4-7.
-//  Copyright (c) 2015年 liuxiaolong. All rights reserved.
+//  Copyright (c) 2015年 yinlongNie. All rights reserved.
 //
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
